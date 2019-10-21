@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7109" started-at="2019-10-21T04:24:26Z" finished-at="2019-10-21T04:24:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.d.testrunner.Testrunner@685cb137]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="7109" started-at="2019-10-21T04:24:26Z" finished-at="2019-10-21T04:24:33Z">
+      <class name="com.d.testrunner.Testrunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.d.testrunner.Testrunner@685cb137]" name="setUpClass" is-config="true" duration-ms="141" started-at="2019-10-21T00:24:26Z" finished-at="2019-10-21T00:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.d.testrunner.Testrunner@685cb137]" name="feature" duration-ms="6675" started-at="2019-10-21T00:24:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-21T00:24:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS commerce login features testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.d.testrunner.Testrunner@685cb137]" name="tearDownClass" is-config="true" duration-ms="212" started-at="2019-10-21T00:24:32Z" finished-at="2019-10-21T00:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.d.testrunner.Testrunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
