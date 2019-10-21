@@ -16,7 +16,8 @@ public class DElements {
 	
 	
 	
-	
+	@FindBy(xpath="//span[contains(text(),'My Account')]")
+	public WebElement MyAccount;
 	
 	@FindBy(xpath="//input[@name='email_address']")
 	public WebElement Username;

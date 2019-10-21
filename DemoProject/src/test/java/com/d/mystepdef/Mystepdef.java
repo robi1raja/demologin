@@ -23,7 +23,8 @@ public class Mystepdef extends Simple{
 
 	@When("^User will input \"([^\"]*)\"$")
 	public void user_will_input(String Email) throws Throwable {
-	    Ele.Username.sendKeys(Email);
+	    Ele.MyAccount.click();
+		Ele.Username.sendKeys(Email);
 	    
 	}
 
