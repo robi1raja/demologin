@@ -19,32 +19,39 @@ public class login extends Simple{
 		getDriver();
 		Ele= PageFactory.initElements(driver, DElements.class);
 	    
+		
 	}
 
 	@When("^User will input \"([^\"]*)\"$")
 	public void user_will_input(String Email) throws Throwable {
 	    Ele.MyAccount.click();
 		Ele.Username.sendKeys(Email);
-	    
+	  
+		Thread.sleep(2000);
 	}
 
 	@When("^User will enter \"([^\"]*)\"$")
 	public void user_will_enter(String Password) throws Throwable {
 	    Ele.Password.sendKeys(Password);
-	    
+	 
+	    Thread.sleep(2000);
 	}
 
 	@When("^User will click on Signin button$")
 	public void user_will_click_on_Signin_button() throws Throwable {
 	    Ele.SigninButton.click();
+	  
 	    
+	    Thread.sleep(2000);
 	}
 
 	@When("^User will varify$")
 	public void user_will_varify() throws Throwable {
 	    Ele.LogoffButton.getText();
 	    Assert.assertEquals(Ele.LogoffButton.getText(), "Log Off");
+	  
 	    
+	    Thread.sleep(2000);
 	}
 
 	@Then("^User will close the browser$")

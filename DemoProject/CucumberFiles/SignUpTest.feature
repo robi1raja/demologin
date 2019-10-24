@@ -15,5 +15,5 @@ Feature: osCommerce Signup features testing
 
     Examples: 
       | FirstName  | LastName |DateOfBirth|  EMail             | Street           | PostCode | City     |State|  CountryName|Telephone | Password | CPassword |
-      | test2      | test@2   | 12/10/1991| me123456g@gmail.com| 142 w 7th street | 11204 | Brooklyn    |NY   | India  |123456784 |  test234 | test234   | 
+      | test2      | test@2   | 12/10/1991| test1234c@gmail.com| 142 w 7th street | 11204 | Brooklyn    |NY   | India  |123456784 |  test234 | test234   | 
      

@@ -106,22 +106,51 @@ public class DElements {
 	
 	
 	//  product purchese and add to cart and checkout functionality;
-	/*
-	@FindBy(xpath="//a[contains(text(),'Hardware->')]")
-	public WebElement HardwareButton;
-	
+	 
 	
 	@FindBy(xpath="//a[contains(text(),'Hardware->')]")
 	public WebElement HardwareButton;
 	
 	
-	@FindBy(xpath="//a[contains(text(),'Hardware->')]")
-	public WebElement HardwareButton;
+	@FindBy(xpath="(//a[contains(text(),'Printers')])[2]")
+	public WebElement PrinterButton;
 	
 	
-	@FindBy(xpath="//a[contains(text(),'Hardware->')]")
-	public WebElement HardwareButton;
-	*/
+	@FindBy(xpath="(//a[contains(text(),'Hewlett Packard LaserJet 1100Xi')])[1]")
+	public WebElement Hewlett;
+	
+		
+	
+	@FindBy(xpath="//span[contains(text(),'Add to Cart')]")
+	public WebElement AddToCart;
+	
+	@FindBy(xpath="//span[contains(text(),'Cart Contents (1)')]")
+	public WebElement Cartcontent;
+	
+	@FindBy(xpath="(//span[contains(text(),'Checkout')])[2]")
+	public WebElement CheckoutButton;
+	
+	
+	
 	
 
+
+
+public  void login() {
+	MyAccount.click();
+	Email.sendKeys("su1241057@gmail.com");
+	Password.sendKeys("test234");
+	SigninButton.click();
+			
 }
+
+
+
+
+
+}
+
+
+
+
+

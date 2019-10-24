@@ -10,8 +10,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		dryRun=false  ,
 		
 		 plugin = { "pretty",
-"html:target/cucumber-htmlreport", "json:target/cucumber-report.json",
-"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" }, monochrome = true
+"html:target/cucumber-htmlreport", "json:target/cucumber-report.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" }, monochrome = true
 
 
 		

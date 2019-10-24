@@ -1,10 +1,8 @@
 package com.d.common;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Simple {
@@ -15,11 +13,13 @@ public class Simple {
       driver=new ChromeDriver();
       driver.get("https://demo.oscommerce.com");
       driver.manage().window().maximize();
-      driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+      driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
       return driver;
      
     	  
       
 	}
+	
+	
 
 }
